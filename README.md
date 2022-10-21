@@ -1,4 +1,4 @@
-# mini-Linkedin-Templet
+# Minimalistic-Static-WebPageDesign
 
 
 
