@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  width: 700px;
+  display: flex;
+  margin: 1rem auto;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  background-color: rgb(236, 234, 234);
+  gap: 15%;
+  padding: 1rem;
+  align-items: center;
+}
+nav .thumbnail {
+  flex-basis: 30%;
+  background-color: cyan;
+}
+.banner img {
+  height: 400px;
+  width: 700px;
+  margin: auto;
+}
+
+article {
+  margin: 1rem 0;
+}
+.content {
+  display: flex;
+  margin: 1rem 0;
+  background-color: rgb(236, 234, 234);
+  justify-content: space-around;
+}
+.content .blogs {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .blogs header img {
+  width: 350px;
+  margin: 1rem;
+}
+.content .blogs div {
+  width: 350px;
+  background-color: #7ddbff;
+  margin: 1rem;
+  padding: 1rem;
+}
+.content .side-bare {
+  background-color: rgb(255, 255, 255);
+  margin: 1rem;
+  flex-basis: 40%;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+  margin-bottom: 0;
+}
+.icons a {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.thumbnail img {
+  height: 300px;
+}
+p {
+  margin: 1rem 0;
+}
+.what-ever div{
+    margin: 2em 0;
+    background-color: rgb(236, 234, 234);
+    margin: .5rem;
+    padding: .8rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
